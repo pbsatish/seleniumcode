@@ -1,0 +1,6 @@
+[0803/155853.809:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0810/115818.627:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0831/144639.061:ERROR:process_info.cc(359)] UncheckedAllocate
+[1014/115413.551:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)
+[1016/153427.747:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1016/153427.747:ERROR:exception_snapshot_win.cc(98)] thread ID 3028 not found in process

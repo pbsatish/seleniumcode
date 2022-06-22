@@ -1,0 +1,17 @@
+//*[@id="resultTable"]/thead/tr/th[2]  ............Number of columns xpath
+//*[@id="resultTable"]/thead/tr/th[2]
+
+
+//*[@id="resultTable"]/thead/tr/th  ----- .Number of exact columns in the web table
+
+
+//*[@id="resultTable"]/tbody/tr[1]/td[2]      ..............Number of Rows in the web table
+//*[@id="resultTable"]/tbody/tr/td[2]
+
+//*[@id="resultTable"]/tbody/tr/td[2].....Number of exact Rows
+//*[@id="resultTable"]/tbody/tr/td[5] .......Numner of exact Rows
+
+
+C:\Users\Annnn\AppData\Local\Programs\Python\Python37\
+
+

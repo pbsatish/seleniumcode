@@ -1,0 +1,36 @@
+
+ <!DOCTYPE HTML>
+ <html>
+ <head>
+ <script>
+ window.onload = function() { 
+ var chart = new CanvasJS.Chart ("chartContainer", {       
+  theme: "light2",   
+  exportEnabled: true,   
+ animationEnabled: true,  
+  title: {  
+ text: "Test Exeuction Summary"  
+ },  
+  	data: [{    
+   type: "pie",  
+ startAngle: 25,   
+ toolTipContent: "<b>{label}</b>: {y}",  
+  	showInLegend: "true", 
+   	legendText: "{label}- {y} ",  
+  indexLabelFontSize: 16,  
+  indexLabel: "{label} - {y} (#percent%)  ",  
+   dataPoints: [ 
+  { y: 1, color: "green", label: "Pass" },  
+  { y: 1, color: "red", label: "Fail" }  
+ ]  
+  }]  
+ });  
+  chart.render();  
+  }    
+  </script>       
+  </head>  
+  <body>  
+  <div id="chartContainer" style="height: 300px; width: 100%;"></div>   
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script> 
+ </body> 
+ </html> 

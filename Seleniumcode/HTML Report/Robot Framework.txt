@@ -1,0 +1,185 @@
+https://www.youtube.com/watch?v=UbYxkUq0Hec&list=PLUDwpEzHYYLsCHiiihnwl3L0xPspL7BPG
+
+https://www.youtube.com/watch?v=MLbAQnZNbRs
+
+https://www.youtube.com/watch?v=kTUIAVSWN9s
+https://www.youtube.com/watch?v=l2GcnkCEorw
+
+
+https://github.com/robotframework/RIDE/wiki/Installation-Instructions#robot-framework
+
+https://www.youtube.com/watch?v=kTUIAVSWN9s&t=118s-----Important
+
+pip install robotframework-ride..............Most Important
+
+https://medium.com/@rajeshamoharana/robotframework-with-eclipse-for-beginner-bed5bf38ecf---New Robot Project
+
+
+
+http://nokia.github.io/RED/help/user_guide/working_with_RED/libs.html
+https://robotframework.org/SeleniumLibrary/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------
+
+
+Microsoft Windows [Version 10.0.18362.592]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Annnn>cd C:\Users\Annnn\AppData\Local\Programs\Python\Python37\
+
+C:\Users\Annnn\AppData\Local\Programs\Python\Python37>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 58C4-6AA3
+
+ Directory of C:\Users\Annnn\AppData\Local\Programs\Python\Python37
+
+01/11/2020  09:15 PM    <DIR>          .
+01/11/2020  09:15 PM    <DIR>          ..
+01/11/2020  09:15 PM    <DIR>          DLLs
+01/11/2020  09:15 PM    <DIR>          Doc
+01/11/2020  09:15 PM    <DIR>          include
+01/11/2020  09:15 PM    <DIR>          Lib
+01/11/2020  09:15 PM    <DIR>          libs
+10/15/2019  12:14 AM            30,188 LICENSE.txt
+10/15/2019  12:14 AM           711,270 NEWS.txt
+10/15/2019  12:12 AM            99,856 python.exe
+10/15/2019  12:12 AM            58,896 python3.dll
+10/15/2019  12:12 AM         3,748,880 python37.dll
+10/15/2019  12:12 AM            98,320 pythonw.exe
+01/11/2020  09:15 PM    <DIR>          Scripts
+01/11/2020  09:15 PM    <DIR>          tcl
+01/11/2020  09:15 PM    <DIR>          Tools
+10/14/2019  11:04 PM            89,752 vcruntime140.dll
+               7 File(s)      4,837,162 bytes
+              10 Dir(s)  55,436,722,176 bytes free
+
+C:\Users\Annnn\AppData\Local\Programs\Python\Python37>pip
+
+Usage:
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to
+                              WARNING, ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --proxy <proxy>             Specify a proxy in the form [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup,
+                              (a)bort.
+  --trusted-host <hostname>   Mark this host as trusted, even though it does not have valid or any HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file containing the private key and the
+                              certificate in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine whether a new version of pip is available for
+                              download. Implied with --no-index.
+  --no-color                  Suppress colored output
+
+C:\Users\Annnn\AppData\Local\Programs\Python\Python37>pip list
+Package    Version
+---------- -------
+pip        19.2.3
+selenium   3.141.0
+setuptools 41.2.0
+urllib3    1.25.7
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+C:\Users\Annnn\AppData\Local\Programs\Python\Python37>pip robotframework
+ERROR: unknown command "robotframework"
+
+C:\Users\Annnn\AppData\Local\Programs\Python\Python37>pip install robotframework
+Collecting robotframework
+  Downloading https://files.pythonhosted.org/packages/22/0f/1b9ffa0c4e59789b50e6034866e823b7d4a5c7eaedad7bfd0bba42f2aa9d/robotframework-3.1.2-py2.py3-none-any.whl (602kB)
+     |████████████████████████████████| 604kB 939kB/s
+Installing collected packages: robotframework
+Successfully installed robotframework-3.1.2
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+C:\Users\Annnn\AppData\Local\Programs\Python\Python37>pip install robotframework-seleniumlibrary
+Collecting robotframework-seleniumlibrary
+  Downloading https://files.pythonhosted.org/packages/5d/09/dd1f76346caf575ad4c301e428f719fac230e176cb8141d2b2446930e623/robotframework_seleniumlibrary-4.3.0-py2.py3-none-any.whl (91kB)
+     |████████████████████████████████| 92kB 980kB/s
+Requirement already satisfied: selenium>=3.141.0 in c:\users\annnn\appdata\local\programs\python\python37\lib\site-packages (from robotframework-seleniumlibrary) (3.141.0)
+Requirement already satisfied: robotframework>=3.0.4 in c:\users\annnn\appdata\local\programs\python\python37\lib\site-packages (from robotframework-seleniumlibrary) (3.1.2)
+Requirement already satisfied: urllib3 in c:\users\annnn\appdata\local\programs\python\python37\lib\site-packages (from selenium>=3.141.0->robotframework-seleniumlibrary) (1.25.7)
+Installing collected packages: robotframework-seleniumlibrary
+Successfully installed robotframework-seleniumlibrary-4.3.0
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+C:\Users\Annnn\AppData\Local\Programs\Python\Python37>robot --version
+Robot Framework 3.1.2 (Python 3.7.5 on win32)
+
+C:\Users\Annnn\AppData\Local\Programs\Python\Python37>pip install robotframework-ride
+Collecting robotframework-ride
+  Downloading https://files.pythonhosted.org/packages/36/d5/ece871dc64e4022c5f8c6772c333a7c686bccec45825c463c5542c2a5eac/robotframework-ride-1.7.4.1.zip (1.2MB)
+     |████████████████████████████████| 1.2MB 819kB/s
+Collecting wxPython (from robotframework-ride)
+  Downloading https://files.pythonhosted.org/packages/8a/12/08d58ad0a782aa003f2f4c19c2d2d8a55bc0141f9b925ea2f066732a7319/wxPython-4.0.7.post2-cp37-cp37m-win_amd64.whl (23.0MB)
+     |████████████████████████████████| 23.0MB 6.4MB/s
+Collecting PyPubSub (from robotframework-ride)
+  Downloading https://files.pythonhosted.org/packages/1a/41/a0aceb552d8ec63bb1e8223d130f9dd0f736470036d75d708183b104a2cb/Pypubsub-4.0.3-py3-none-any.whl (61kB)
+     |████████████████████████████████| 61kB 4.1MB/s
+Collecting Pygments (from robotframework-ride)
+  Downloading https://files.pythonhosted.org/packages/be/39/32da3184734730c0e4d3fa3b2b5872104668ad6dc1b5a73d8e477e5fe967/Pygments-2.5.2-py2.py3-none-any.whl (896kB)
+     |████████████████████████████████| 901kB 6.4MB/s
+Collecting Pywin32 (from robotframework-ride)
+  Downloading https://files.pythonhosted.org/packages/bb/23/00fe4fbf9963f3bcb34a443eba0d0283fc51e5887d4045552c87490394e4/pywin32-227-cp37-cp37m-win_amd64.whl (9.1MB)
+     |████████████████████████████████| 9.1MB 6.8MB/s
+Collecting pillow (from wxPython->robotframework-ride)
+  Downloading https://files.pythonhosted.org/packages/88/6b/66f502b5ea615f69433ae1e23ec786b2cdadbe41a5cfb1e1fabb4f9c6ce9/Pillow-7.0.0-cp37-cp37m-win_amd64.whl (2.0MB)
+     |████████████████████████████████| 2.0MB 6.4MB/s
+Collecting six (from wxPython->robotframework-ride)
+  Downloading https://files.pythonhosted.org/packages/65/eb/1f97cb97bfc2390a276969c6fae16075da282f5058082d4cb10c6c5c1dba/six-1.14.0-py2.py3-none-any.whl
+Collecting numpy; python_version >= "3.0" (from wxPython->robotframework-ride)
+  Downloading https://files.pythonhosted.org/packages/a9/38/f6d6d8635d496d6b4ed5d8ca4b9f193d0edc59999c3a63779cbc38aa650f/numpy-1.18.1-cp37-cp37m-win_amd64.whl (12.8MB)
+     |████████████████████████████████| 12.8MB 6.4MB/s
+Installing collected packages: pillow, six, numpy, wxPython, PyPubSub, Pygments, Pywin32, robotframework-ride
+  Running setup.py install for robotframework-ride ... done
+Successfully installed PyPubSub-4.0.3 Pygments-2.5.2 Pywin32-227 numpy-1.18.1 pillow-7.0.0 robotframework-ride-1.7.4.1 six-1.14.0 wxPython-4.0.7.post2
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+C:\Users\Annnn\AppData\Local\Programs\Python\Python37>

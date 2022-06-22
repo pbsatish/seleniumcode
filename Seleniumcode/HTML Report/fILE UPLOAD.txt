@@ -1,0 +1,7 @@
+1. COPY ACTION -----VALUE STORED IN TEMPORARY BUFFER----> C:\HTML Report\OrangeHRM6\Mahesh.jpg
+
+
+2. CTRL + V
+
+
+3. Enter Key

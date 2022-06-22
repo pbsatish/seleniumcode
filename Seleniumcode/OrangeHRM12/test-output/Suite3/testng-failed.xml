@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite3]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="PDF_Emailable_Report2.JyperionListener"/>
+  </listeners>
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="PDF_Emailable_Report2.TC01_Test1">
+        <methods>
+          <include name="PDFReport1"/>
+        </methods>
+      </class> <!-- PDF_Emailable_Report2.TC01_Test1 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite3] -->

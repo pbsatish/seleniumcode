@@ -1,0 +1,27 @@
+
+ <?xml version="1.0" encoding="UTF-8"?> 
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+ <suite name="TestSuite" thread-count="3" parallel="methods" > 
+
+  <test name="All Tests"> 
+ <classes> 
+ <class name="SamSung.Test8">  
+  <methods>  
+
+ <include name="TC01">
+ <parameter name="Browser" value="Chrome" /> 
+ </include> 
+
+ <include name="TC02">
+ <parameter name="Browser" value="Chrome" /> 
+ </include> 
+
+ <include name="TC03">
+ <parameter name="Browser" value="Chrome" /> 
+ </include> 
+   </methods>  
+   </class>  
+ </classes> 
+   </test>  
+
+   </suite>  

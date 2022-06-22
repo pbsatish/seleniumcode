@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.527" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/OrangeHRM56/7/display/redirect"/>
+    <property name="HUDSON_HOME" value="C:\Users\Annnn\.jenkins"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/OrangeHRM56/7/display/redirect?page=changes"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="dfbeb2c7869af202"/>
+    <property name="USERNAME" value="Annnn"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Annnn\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest1 C:\Users\Annnn\.jenkins\war\WEB-INF\lib\remoting-4.2.jar C:\Users\Annnn\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Annnn\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 55266"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="maven.home" value="C:\Users\Annnn\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest1"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="POM_GROUPID" value="OrangeHRM11"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
+    <property name="JENKINS_HOME" value="C:\Users\Annnn\.jenkins"/>
+    <property name="PyCharm Community Edition" value="C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.3\bin;"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\OrangeHRM11"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="HOMEPATH" value="\Users\Annnn"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="maven3.interceptor" value="C:\Users\Annnn\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="PATH+MAVEN" value="C:\Users\Annnn\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest1/bin"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Annnn\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=::" value="::\"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\Annnn\.jenkins\workspace\OrangeHRM56@tmp"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.2"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.name" value="Annnn"/>
+    <property name="POM_ARTIFACTID" value="OrangeHRM11"/>
+    <property name="OneDrive" value="C:\Users\Annnn\OneDrive"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="=C:" value="C:\HTML Report\Jenkins"/>
+    <property name="APPDATA" value="C:\Users\Annnn\AppData\Roaming"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="WORKSPACE" value="C:\Users\Annnn\.jenkins\workspace\OrangeHRM56"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Annnn\.m2\repository"/>
+    <property name="Path" value="C:\WINDOWS\system32;C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\chromedriver_win32\chromedriver.exe;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Annnn\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Annnn\AppData\Local\Programs\Python\Python37\;C:\Program Files\Java\jdk-11.0.2\bin;C:\chromedriver_win32\chromedriver.exe;C:\Users\Annnn\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.3\bin;;"/>
+    <property name="java.io.tmpdir" value="C:\Users\Annnn\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="COMPUTERNAME" value="DESKTOP-VL2N6EH"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JOB_BASE_NAME" value="OrangeHRM56"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Annnn\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest1/bin;C:\WINDOWS\system32;C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\chromedriver_win32\chromedriver.exe;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Annnn\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Annnn\AppData\Local\Programs\Python\Python37\;C:\Program Files\Java\jdk-11.0.2\bin;C:\chromedriver_win32\chromedriver.exe;C:\Users\Annnn\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.3\bin;;;."/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="POM_DISPLAYNAME" value="OrangeHRM11"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-VL2N6EH"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="webdriver.chrome.driver" value="C:\chromedriver_win32\chromedriver.exe"/>
+    <property name="java.class.path" value="C:\Users\Annnn\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\Annnn\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest1\boot\plexus-classworlds-2.6.0.jar;C:\Users\Annnn\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest1/conf/logging"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="user.variant" value=""/>
+    <property name="MAVEN_HOME" value="C:\Users\Annnn\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest1"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="maven.conf" value="C:\Users\Annnn\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest1\conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="BUILD_TAG" value="jenkins-OrangeHRM56-7"/>
+    <property name="surefire.test.class.path" value="E:\OrangeHRM11\target\test-classes;E:\OrangeHRM11\target\classes;C:\Users\Annnn\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar;C:\Users\Annnn\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar;C:\Users\Annnn\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar;C:\Users\Annnn\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar;C:\Users\Annnn\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar;C:\Users\Annnn\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar;C:\Users\Annnn\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\Annnn\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\Annnn\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\Annnn\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Annnn\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Annnn\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Annnn\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Annnn\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Annnn\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Annnn\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Annnn\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\Annnn\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\Annnn\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\Annnn\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\Annnn\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Annnn\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\Annnn\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\Annnn\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\Annnn\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Annnn\.m2\repository\io\rest-assured\json-schema-validator\3.3.0\json-schema-validator-3.3.0.jar;C:\Users\Annnn\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\Annnn\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\Annnn\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\Annnn\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\Annnn\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\Annnn\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\Annnn\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\Annnn\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\Annnn\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\Annnn\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\Annnn\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\Annnn\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\Annnn\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\Annnn\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Annnn\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\Annnn\.m2\repository\com\google\code\gson\gson\2.7\gson-2.7.jar;C:\Users\Annnn\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Annnn\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Annnn\.m2\repository\pl\pragmatists\JUnitParams\1.0.5\JUnitParams-1.0.5.jar;C:\Users\Annnn\.m2\repository\io\github\bonigarcia\webdrivermanager\3.6.1\webdrivermanager-3.6.1.jar;C:\Users\Annnn\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Annnn\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Annnn\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Annnn\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\Annnn\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Annnn\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Annnn\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Annnn\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Annnn\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Annnn\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Annnn\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Annnn\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Annnn\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Annnn\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Annnn\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Annnn\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Annnn\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Annnn\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Annnn\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Annnn\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Annnn\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Annnn\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Annnn\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Annnn\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Annnn\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Annnn\.m2\repository\org\testng\testng\7.0.0-beta1\testng-7.0.0-beta1.jar;C:\Users\Annnn\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Annnn\.m2\repository\com\aventstack\extentreports\3.0.7\extentreports-3.0.7.jar;C:\Users\Annnn\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Annnn\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Annnn\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Annnn\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Annnn\.m2\repository\org\reflections\reflections\0.9.11\reflections-0.9.11.jar;C:\Users\Annnn\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\Annnn\.m2\repository\org\apache\pdfbox\pdfbox\2.0.14\pdfbox-2.0.14.jar;C:\Users\Annnn\.m2\repository\org\apache\pdfbox\fontbox\2.0.14\fontbox-2.0.14.jar;C:\Users\Annnn\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Annnn\.m2\repository\mysql\mysql-connector-java\8.0.19\mysql-connector-java-8.0.19.jar;C:\Users\Annnn\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\Annnn\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\Annnn\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Annnn\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Annnn\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\Annnn\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\Annnn\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Annnn\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Annnn\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Annnn\.m2\repository\fr\opensagres\xdocreport\fr.opensagres.xdocreport.converter.docx.xwpf\2.0.1\fr.opensagres.xdocreport.converter.docx.xwpf-2.0.1.jar;C:\Users\Annnn\.m2\repository\fr\opensagres\xdocreport\fr.opensagres.xdocreport.converter\2.0.1\fr.opensagres.xdocreport.converter-2.0.1.jar;C:\Users\Annnn\.m2\repository\fr\opensagres\xdocreport\fr.opensagres.xdocreport.core\2.0.1\fr.opensagres.xdocreport.core-2.0.1.jar;C:\Users\Annnn\.m2\repository\fr\opensagres\xdocreport\fr.opensagres.poi.xwpf.converter.pdf\2.0.1\fr.opensagres.poi.xwpf.converter.pdf-2.0.1.jar;C:\Users\Annnn\.m2\repository\fr\opensagres\xdocreport\fr.opensagres.poi.xwpf.converter.core\2.0.1\fr.opensagres.poi.xwpf.converter.core-2.0.1.jar;C:\Users\Annnn\.m2\repository\org\apache\poi\ooxml-schemas\1.3\ooxml-schemas-1.3.jar;C:\Users\Annnn\.m2\repository\fr\opensagres\xdocreport\fr.opensagres.xdocreport.itext.extension\2.0.1\fr.opensagres.xdocreport.itext.extension-2.0.1.jar;C:\Users\Annnn\.m2\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;C:\Users\Annnn\.m2\repository\fr\opensagres\xdocreport\fr.opensagres.poi.xwpf.converter.xhtml\2.0.1\fr.opensagres.poi.xwpf.converter.xhtml-2.0.1.jar;C:\Users\Annnn\.m2\repository\fr\opensagres\xdocreport\org.apache.poi.xwpf.converter.pdf\1.0.6\org.apache.poi.xwpf.converter.pdf-1.0.6.jar;C:\Users\Annnn\.m2\repository\fr\opensagres\xdocreport\org.apache.poi.xwpf.converter.core\1.0.6\org.apache.poi.xwpf.converter.core-1.0.6.jar;C:\Users\Annnn\.m2\repository\com\documents4j\documents4j-local\1.0.3\documents4j-local-1.0.3.jar;C:\Users\Annnn\.m2\repository\com\documents4j\documents4j-api\1.0.3\documents4j-api-1.0.3.jar;C:\Users\Annnn\.m2\repository\com\documents4j\documents4j-transformer\1.0.3\documents4j-transformer-1.0.3.jar;C:\Users\Annnn\.m2\repository\com\documents4j\documents4j-util-conversion\1.0.3\documents4j-util-conversion-1.0.3.jar;C:\Users\Annnn\.m2\repository\org\zeroturnaround\zt-exec\1.8\zt-exec-1.8.jar;C:\Users\Annnn\.m2\repository\com\documents4j\documents4j-transformer-msoffice-word\1.0.3\documents4j-transformer-msoffice-word-1.0.3.jar;C:\Users\Annnn\.m2\repository\com\documents4j\documents4j-transformer-msoffice-base\1.0.3\documents4j-transformer-msoffice-base-1.0.3.jar;C:\Users\Annnn\.m2\repository\com\documents4j\documents4j-transformer-api\1.0.3\documents4j-transformer-api-1.0.3.jar;C:\Users\Annnn\.m2\repository\com\documents4j\documents4j-util-all\1.0.3\documents4j-util-all-1.0.3.jar;C:\Users\Annnn\.m2\repository\com\documents4j\documents4j-util-transformer-process\1.0.3\documents4j-util-transformer-process-1.0.3.jar;C:\Users\Annnn\.m2\repository\com\documents4j\documents4j-util-standalone\1.0.3\documents4j-util-standalone-1.0.3.jar;C:\Users\Annnn\.m2\repository\net\sf\jopt-simple\jopt-simple\4.9\jopt-simple-4.9.jar;C:\Users\Annnn\.m2\repository\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;C:\Users\Annnn\.m2\repository\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;C:\Users\Annnn\.m2\repository\org\slf4j\jul-to-slf4j\1.7.13\jul-to-slf4j-1.7.13.jar;C:\Users\Annnn\.m2\repository\com\itextpdf\itextpdf\5.0.6\itextpdf-5.0.6.jar;C:\Users\Annnn\.m2\repository\org\bouncycastle\bcmail-jdk14\1.38\bcmail-jdk14-1.38.jar;C:\Users\Annnn\.m2\repository\org\bouncycastle\bcprov-jdk14\1.38\bcprov-jdk14-1.38.jar;C:\Users\Annnn\.m2\repository\org\bouncycastle\bctsp-jdk14\1.38\bctsp-jdk14-1.38.jar;C:\Users\Annnn\.m2\repository\com\github\2gis\winium\winium-webdriver\0.1.0-1\winium-webdriver-0.1.0-1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Annnn"/>
+    <property name="user.language" value="en"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/OrangeHRM56/display/redirect"/>
+    <property name="M2_HOME" value="C:\Users\Annnn\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenTest1"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Annnn\AppData\Local"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="USERDOMAIN" value="DESKTOP-VL2N6EH"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-VL2N6EH"/>
+    <property name="path.separator" value=";"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="os.version" value="10.0"/>
+    <property name="JOB_NAME" value="OrangeHRM56"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="user.dir" value="E:\OrangeHRM11"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="HUDSON_SERVER_COOKIE" value="dfbeb2c7869af202"/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="TEMP" value="C:\Users\Annnn\AppData\Local\Temp"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="USERPROFILE" value="C:\Users\Annnn"/>
+    <property name="TMP" value="C:\Users\Annnn\AppData\Local\Temp"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="logintest" classname="ABC_Demo10.TC01_Login" time="17.665">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#btnAdd&quot;}&#10;  (Session info: chrome=80.0.3987.122)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-VL2N6EH&apos;, ip: &apos;10.0.0.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\Annnn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 7e102186ad9ecc06b9126b4d133874e5&#10;*** Element info: {Using=id, value=btnAdd}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#btnAdd"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VL2N6EH', ip: '10.0.0.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\Annnn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7e102186ad9ecc06b9126b4d133874e5
+*** Element info: {Using=id, value=btnAdd}
+	at ABC_Demo10.TC01_Login.findElement(TC01_Login.java:83)
+	at ABC_Demo10.TC01_Login.AddNationalities(TC01_Login.java:50)
+	at ABC_Demo10.TC01_Login.logintest(TC01_Login.java:22)
+]]></failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 22055
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1583037876.588][WARNING]: Timed out connecting to Chrome, retrying...
+[1583037880.681][WARNING]: Timed out connecting to Chrome, retrying...
+[1583037885.285][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037885.387][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037885.488][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037885.590][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037885.692][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037885.797][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037885.899][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037886.000][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037886.102][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037886.203][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037886.305][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037886.407][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037886.508][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037886.610][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037886.711][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037886.887][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037886.988][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037887.132][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037887.430][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037889.240][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037889.341][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037889.444][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037889.627][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583037889.728][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+</testsuite>

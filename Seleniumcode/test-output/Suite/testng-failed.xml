@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="Browser1" value="FireFox"/>
+    <parameter name="Password1" value="admin123"/>
+    <parameter name="UserName1" value="Admin"/>
+    <parameter name="Nationality1" value="Indian662"/>
+    <classes>
+      <class name="Day_012_TestNG_Paraneters.TC02_Login_Static_Paarameters2">
+        <methods>
+          <include name="Login_Test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Day_012_TestNG_Paraneters.TC02_Login_Static_Paarameters2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

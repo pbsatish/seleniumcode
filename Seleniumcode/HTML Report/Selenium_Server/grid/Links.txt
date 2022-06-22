@@ -1,0 +1,111 @@
+https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone/2.53.0
+
+http://repo.jenkins-ci.org/releases/org/seleniumhq/selenium/selenium-server-standalone/2.53.0/
+
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server-standalone -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-server-standalone</artifactId>
+    <version>2.53.0</version>
+</dependency>
+
+
+---------------------------------------step1 HUb register---------------------------------------------
+
+Selenium Grid 
+
+java -jar selenium-server-standalone-2.53.0.jar -role hub
+
+java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Saryu>cd C:\HTML Report\Selenium_Server\grid
+
+C:\HTML Report\Selenium_Server\grid>java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+
+java -jar selenium-server-standalone-3.141.59.jar
+
+java -jar selenium-server-4.0.0-alpha-4.jar -role hub
+
+java -jar selenium-server-4.0.0-alpha-4.jar -role hub
+
+04:36:24.900 INFO - Launching Selenium Grid hub
+
+2019-12-17 04:36:28.076:INFO::main: Logging initialized @3833ms
+04:36:28.107 INFO - Will listen on 4444
+04:36:28.201 INFO - Will listen on 4444
+2019-12-17 04:36:28.216:INFO:osjs.Server:main: jetty-9.2.z-SNAPSHOT
+2019-12-17 04:36:28.403:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletC
+ontextHandler@689604d9{/,null,AVAILABLE}
+2019-12-17 04:36:28.637:INFO:osjs.ServerConnector:main: Started ServerConnector@
+385c9627{HTTP/1.1}{0.0.0.0:4444}
+2019-12-17 04:36:28.637:INFO:osjs.Server:main: Started @4399ms
+04:36:28.653 INFO - Nodes should register to http://192.168.29.95:4444/grid/regi
+ster/
+04:36:28.653 INFO - Selenium Grid hub is up and running
+
+
+------------------------------------------step2------------------------------------------------------
+
+http://localhost:4444/grid/console
+
+----------------------------------------------step3 Node register-------------------------------------------------------
+
+
+
+C:\HTML Report\Selenium_Server\grid>java -DWebdriver.chrome.driver="" -jar selenium-server-standalone-2.53.0.jar -role webdriver -hub http://192.168.29.199:4444/grid/register -port 5588
+
+java -DWebdriver.chrome.driver=C:\chromedriver_win32\chromedriver.exe -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.29.199:4444/grid/register
+
+
+
+
+java -Dwebdriver.chrome.driver="C:\chromedriver_win32\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://<ip of host machine>:4444/grid/register
+
+
+
+
+
+
+
+
+
+04:47:45.185 INFO - Launching a Selenium Grid node
+04:47:47.158 INFO - Java: Oracle Corporation 12.0.1+12
+04:47:47.159 INFO - OS: Windows 7 6.1 amd64
+04:47:47.181 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+04:47:47.319 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+04:47:47.320 INFO - Driver provider com.opera.core.systems.OperaDriver is not re
+gistered
+04:47:47.338 INFO - Driver provider org.openqa.selenium.safari.SafariDriver regi
+stration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=
+MAC}] does not match the current platform VISTA
+04:47:47.341 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUni
+tDriver
+04:47:47.342 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver
+is not registered
+04:47:47.405 INFO - Version Jetty/5.1.x
+04:47:47.410 INFO - Started HttpContext[/selenium-server,/selenium-server]
+04:47:47.593 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@548e6d
+58
+04:47:47.593 INFO - Started HttpContext[/wd,/wd]
+04:47:47.593 INFO - Started HttpContext[/selenium-server/driver,/selenium-server
+/driver]
+04:47:47.593 INFO - Started HttpContext[/,/]
+04:47:47.593 INFO - Started SocketListener on 0.0.0.0:5588
+04:47:47.608 INFO - Started org.openqa.jetty.jetty.Server@7722c3c3
+04:47:47.608 INFO - Selenium Grid node is up and ready to register to the hub
+04:47:47.655 INFO - Starting auto registration thread. Will try to register ever
+y 5000 ms.
+04:47:47.655 INFO - Registering the node to the hub: http://192.168.29.95:4444/g
+rid/register
+04:47:47.733 INFO - The node is registered to the hub and ready to use
+
+
+
+------------------------------------------------

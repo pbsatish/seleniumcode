@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite2">
+
+<test name = "test2">
+		  
+		  <groups>
+		        <run>
+		            <include name="checkintest" />
+		            <exclude name="functest"/>
+		            <exclude name="GoogleGroup"/>
+		        </run>
+		    </groups>
+	  
+	      <classes>
+	         <class name = "Day_032_TestNG_Groups.AllTests" />
+	      </classes>
+</test>
+   
+</suite> <!-- Suite -->

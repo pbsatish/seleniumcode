@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" name="TC01_Add_Employee(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="TestCases.TC01_Add_Employee">
+        <methods>
+          <include name="PIM_Employeelist_call_allmethods" invocation-numbers="0"/>
+          <include name="CreateHTML"/>
+          <include name="CloseHtml"/>
+        </methods>
+      </class> <!-- TestCases.TC01_Add_Employee -->
+    </classes>
+  </test> <!-- TC01_Add_Employee(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

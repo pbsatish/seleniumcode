@@ -1,0 +1,22 @@
+LoginPage --> Login.java ----> Login()
+HomePage ---> HomePage.java ---> Logout()
+NationalitiesPage---> Nationalities.Java ---> AddNationalities , ModifyNationalities , DeleteNationalities, SearchNationalities
+SkillsPage---> Skills.Java ---> AddSkills , ModifySkills , DeleteSkills, SearchSkills
+
+
+TC01_Add_Nationalities
+Login()
+AddNationalities()
+Logout()
+
+
+TC01_Add_Skills
+Login()
+AddSkills();
+Logout()
+
+TC01_Modify_Nationalities
+Login()
+SearchNationalities()
+ModifyNationalities()
+Logout()

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<table> <tr >  <img   style="border:1px solid black;"      src="C:\HTML Report\HtmlTemplates\Logo.JPEG"></tr><tr   ><center><font color="red"  size="15" >TC01_Addemployee_Iterration_1</font></center></tr><tr bgcolor="#9370DB"> <th width="100px"> <center><font color="white"  size="4" >Steps</font></center><font color="white"  size="4" ></font></center> </th> <th width="450px" ><center><font color="white"  size="4" >Details </font> </center></th> <th width="100px" ><center><font color="white"  size="4" >Status</font></center></th>  <th  width="250px"  ><center><font color="white"  size="4" >Screen Shots</font></center></th> <th width="250px"  ><center><font color="white"  size="4" >Date & Time</font></center></th>  </tr>       ]]>
+    </line>
+    <line>
+      <![CDATA[ <tr bgcolor="#eee"> <th width="100px"> <center>Step&nbsp;1</center> </th> <th width="450px" ><center><b><font color='black'>   Open Url - Orange HRM Url Invoked Successfully </b> </font></center></th> <th width="100px" ><center><img src='file:///C:\HTML Report\HtmlTemplates\passed.ico'    +     "width="30" + height="30"></img></center></th>  <th  width="250px"  ><center><a href=C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_07_978 AM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_07_978 AM.png','popup','width=600,height=600'); return false;"> ScreenShot</a> </center></th> <th width="250px"  ><center>2019_Oct_26_5_22_08_438_AM</center></th>  </tr>      ]]>
+    </line>
+    <line>
+      <![CDATA[ <tr bgcolor="#ddd"> <th width="100px"> <center>Step&nbsp;2</center> </th> <th width="450px" ><center><b><font color='black'>   Login Page - Enter user Name</b> </font></center></th> <th width="100px" ><center><img src='file:///C:\HTML Report\HtmlTemplates\passed.ico'    +     "width="30" + height="30"></img></center></th>  <th  width="250px"  ><center><a href=C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_09_120 AM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_09_120 AM.png','popup','width=600,height=600'); return false;"> ScreenShot</a> </center></th> <th width="250px"  ><center>2019_Oct_26_5_22_09_604_AM</center></th>  </tr>      ]]>
+    </line>
+    <line>
+      <![CDATA[ <tr bgcolor="#eee"> <th width="100px"> <center>Step&nbsp;3</center> </th> <th width="450px" ><center><b><font color='black'>   Login Page - Enter Password</b> </font></center></th> <th width="100px" ><center><img src='file:///C:\HTML Report\HtmlTemplates\passed.ico'    +     "width="30" + height="30"></img></center></th>  <th  width="250px"  ><center><a href=C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_10_733 AM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_10_733 AM.png','popup','width=600,height=600'); return false;"> ScreenShot</a> </center></th> <th width="250px"  ><center>2019_Oct_26_5_22_11_172_AM</center></th>  </tr>      ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-10-25T23:51:57Z" name="TestSuite" finished-at="2019-10-25T23:52:13Z" duration-ms="16414">
+    <groups>
+    </groups>
+    <test started-at="2019-10-25T23:51:57Z" name="TC01_Add_Employee" finished-at="2019-10-25T23:52:13Z" duration-ms="16414">
+      <class name="TestCases.TC01_Add_Employee">
+        <test-method is-config="true" signature="CreateHTML(java.lang.String)[pri:0, instance:TestCases.TC01_Add_Employee@7f0d96f2]" started-at="2019-10-25T23:51:57Z" name="CreateHTML" finished-at="2019-10-25T23:52:02Z" duration-ms="5362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateHTML -->
+        <test-method signature="PIM_Employeelist_call_allmethods(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC01_Add_Employee@7f0d96f2]" started-at="2019-10-25T23:52:03Z" name="PIM_Employeelist_call_allmethods" data-provider="TC01_Addemployee" finished-at="2019-10-25T23:52:11Z" duration-ms="8394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sudha130]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[su]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12380]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<table> <tr >  <img   style="border:1px solid black;"      src="C:\HTML Report\HtmlTemplates\Logo.JPEG"></tr><tr   ><center><font color="red"  size="15" >TC01_Addemployee_Iterration_1</font></center></tr><tr bgcolor="#9370DB"> <th width="100px"> <center><font color="white"  size="4" >Steps</font></center><font color="white"  size="4" ></font></center> </th> <th width="450px" ><center><font color="white"  size="4" >Details </font> </center></th> <th width="100px" ><center><font color="white"  size="4" >Status</font></center></th>  <th  width="250px"  ><center><font color="white"  size="4" >Screen Shots</font></center></th> <th width="250px"  ><center><font color="white"  size="4" >Date & Time</font></center></th>  </tr>       ]]>
+            </line>
+            <line>
+              <![CDATA[ <tr bgcolor="#eee"> <th width="100px"> <center>Step&nbsp;1</center> </th> <th width="450px" ><center><b><font color='black'>   Open Url - Orange HRM Url Invoked Successfully </b> </font></center></th> <th width="100px" ><center><img src='file:///C:\HTML Report\HtmlTemplates\passed.ico'    +     "width="30" + height="30"></img></center></th>  <th  width="250px"  ><center><a href=C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_07_978 AM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_07_978 AM.png','popup','width=600,height=600'); return false;"> ScreenShot</a> </center></th> <th width="250px"  ><center>2019_Oct_26_5_22_08_438_AM</center></th>  </tr>      ]]>
+            </line>
+            <line>
+              <![CDATA[ <tr bgcolor="#ddd"> <th width="100px"> <center>Step&nbsp;2</center> </th> <th width="450px" ><center><b><font color='black'>   Login Page - Enter user Name</b> </font></center></th> <th width="100px" ><center><img src='file:///C:\HTML Report\HtmlTemplates\passed.ico'    +     "width="30" + height="30"></img></center></th>  <th  width="250px"  ><center><a href=C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_09_120 AM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_09_120 AM.png','popup','width=600,height=600'); return false;"> ScreenShot</a> </center></th> <th width="250px"  ><center>2019_Oct_26_5_22_09_604_AM</center></th>  </tr>      ]]>
+            </line>
+            <line>
+              <![CDATA[ <tr bgcolor="#eee"> <th width="100px"> <center>Step&nbsp;3</center> </th> <th width="450px" ><center><b><font color='black'>   Login Page - Enter Password</b> </font></center></th> <th width="100px" ><center><img src='file:///C:\HTML Report\HtmlTemplates\passed.ico'    +     "width="30" + height="30"></img></center></th>  <th  width="250px"  ><center><a href=C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_10_733 AM.png target="popup" onclick="window.open('C:/HTML Report/test-output/TempScreenShots/TC01_Addemployee_Iterration_1_2019_Oct_26_5_22_03_232_AM/26_Oct_2019 5_22_10_733 AM.png','popup','width=600,height=600'); return false;"> ScreenShot</a> </center></th> <th width="250px"  ><center>2019_Oct_26_5_22_11_172_AM</center></th>  </tr>      ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PIM_Employeelist_call_allmethods -->
+        <test-method is-config="true" signature="CloseHtml()[pri:0, instance:TestCases.TC01_Add_Employee@7f0d96f2]" started-at="2019-10-25T23:52:11Z" name="CloseHtml" finished-at="2019-10-25T23:52:13Z" duration-ms="2263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseHtml -->
+      </class> <!-- TestCases.TC01_Add_Employee -->
+    </test> <!-- TC01_Add_Employee -->
+  </suite> <!-- TestSuite -->
+</testng-results>

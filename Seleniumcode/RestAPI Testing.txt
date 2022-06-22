@@ -1,0 +1,8 @@
+REST API Testing:
+REST API testing is not very difficult compared to selenium web driver UI testing. Most of the APIs should be one of GET / POST / PUT / PATCH / DELETE  requests.
+
+GET is used to get information from the back end to show in the UI
+POST is used to add new information into the back end.
+PUT is used to update / replace any existing information.
+PATCH is for partial update
+DELETE is used to delete the information from the back end.

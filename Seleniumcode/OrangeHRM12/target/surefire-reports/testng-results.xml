@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-05T22:24:29Z" name="Suite" finished-at="2019-12-05T22:24:42Z" duration-ms="13218">
+    <groups>
+    </groups>
+    <test started-at="2019-12-05T22:24:29Z" name="Test" finished-at="2019-12-05T22:24:42Z" duration-ms="13218">
+      <class name="Day_015_ParallelTests.MercuryTest">
+        <test-method signature="Open_Mercury()[pri:0, instance:Day_015_ParallelTests.MercuryTest@c88a337]" started-at="2019-12-05T22:24:29Z" name="Open_Mercury" finished-at="2019-12-05T22:24:40Z" duration-ms="11667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Mercury -->
+      </class> <!-- Day_015_ParallelTests.MercuryTest -->
+      <class name="Day_015_ParallelTests.OrangeHRMTest">
+        <test-method signature="Open_OrangeHRM()[pri:0, instance:Day_015_ParallelTests.OrangeHRMTest@2ed2d9cb]" started-at="2019-12-05T22:24:29Z" name="Open_OrangeHRM" finished-at="2019-12-05T22:24:42Z" duration-ms="13140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_OrangeHRM -->
+      </class> <!-- Day_015_ParallelTests.OrangeHRMTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,184 @@
+//*[@id="txtUsername"] --- Xpath ---- Relative xpath 
+
+
+/html/body/div[1]/div/div[3]/div[2]/div[2]/form/div[2]/input - Absolute Xpath ---- 
+
+
+
+
+<input name="txtUsername" id="txtUsername" type="text">
+
+//input[@name="txtUsername"]
+//*[@type="text"]
+
+
+<input type="submit" name="Submit" class="button" id="btnLogin" value="LOGIN">
+
+//input[@class="button"]
+
+
+---------------------------------------------------------------------------------------
+And / OR :
+
+//input[@name="txtUsername" or @id="txtUsername"]
+
+
+----------------------------------------------------------------------------------------
+
+Text()
+
+//a[text()='Nationalities']
+
+Contains Text()
+
+
+
+------------------------------------------------------------------------------------------------
+Following:
+
+//input[@name="txtUsername]//following::a
+
+----------------------------------------------------------------------------------------------
+Preceding:
+
+<input name="txtPassword" id="txtPassword" autocomplete="off" type="password">
+
+//input[@id="txtPassword"]//preceeding::input
+
+
+-----------------------------------------------------------------------------------------------
+Following sibblings: 
+//*[@id='divUsername']//following-sibling::div"
+
+
+
+//*[@id="divUsername"]
+
+
+
+--------------------------------------------------------------
+Ancestors:
+
+//*[@id="txtPassword"]//ancestor::div
+
+
+---------------------------------------------------------------
+Child:
+
+//*[@id='divUsername']//child::input
+//*[@id='divUsername']//child::span
+
+
+---------------------------------------------------------------
+Self
+
+//*[@id='txtUsername']//self::input"
+
+
+
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+//*[@id="txtUsername"] --- Xpath ---- Relative xpath 
+
+
+/html/body/div[1]/div/div[3]/div[2]/div[2]/form/div[2]/input - Absolute Xpath ---- 
+
+
+
+
+<input name="txtUsername" id="txtUsername" type="text">
+
+//input[@name="txtUsername"]
+//*[@type="text"]
+
+
+<input type="submit" name="Submit" class="button" id="btnLogin" value="LOGIN">
+
+//input[@class="button"]
+
+
+---------------------------------------------------------------------------------------
+And / OR :
+
+//input[@name="txtUsername" or @id="txtUsername"]
+
+
+----------------------------------------------------------------------------------------
+
+Text()
+
+//a[text()='Nationalities']
+
+Contains Text()
+
+
+
+------------------------------------------------------------------------------------------------
+Following:
+
+//input[@name="txtUsername]//following::a
+
+----------------------------------------------------------------------------------------------
+Preceding:
+
+<input name="txtPassword" id="txtPassword" autocomplete="off" type="password">
+
+//input[@id="txtPassword"]//preceeding::input
+
+
+-----------------------------------------------------------------------------------------------
+Following sibblings: 
+//*[@id='divUsername']//following-sibling::div"
+
+
+
+//*[@id="divUsername"]
+
+
+
+--------------------------------------------------------------
+Ancestors:
+
+//*[@id="txtPassword"]//ancestor::div
+
+
+---------------------------------------------------------------
+Child:
+
+//*[@id='divUsername']//child::input
+//*[@id='divUsername']//child::span
+
+
+---------------------------------------------------------------
+Self
+
+//*[@id='txtUsername']//self::input"
+
+
+
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

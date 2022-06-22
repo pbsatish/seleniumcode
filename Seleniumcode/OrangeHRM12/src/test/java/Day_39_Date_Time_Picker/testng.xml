@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" parallel="classes" name="Suite">
+
+
+  <test  name="Test">
+    <classes>
+    
+      <class name="Day_36_Desired_Capabilities.IEtestforDesiredCapabilities"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
